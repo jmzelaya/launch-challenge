@@ -1,8 +1,8 @@
-/* 
+/*
  *  General layout
  */
 
-.row 
+.row
 {
     margin-bottom: 30px;
 }
@@ -12,9 +12,9 @@
  *  Override
  */
 
-.navbar-brand 
-{ 
-    font-size: 15px; 
+.navbar-brand
+{
+    font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -24,7 +24,7 @@
  *  Main
  */
 
-img.pull-left 
+img.pull-left
 {
     margin-right: 15px;
 }
@@ -33,6 +33,14 @@ img.pull-left
 {
     margin: 0 0 30px;
     width: 300px;
+}
+
+.fixed-target{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 4;
 }
 
 .col-md-8 + .col-md-4
@@ -45,14 +53,14 @@ img.pull-left
     margin-bottom: 30px;
 }
 
-.page-content p 
+.page-content p
 {
     font-size: 16px;
     line-height: 1.8em;
     margin-bottom: 15px;
 }
 
-.page-image 
+.page-image
 {
     margin-bottom: 20px;
 }
