@@ -1,6 +1,16 @@
 body{
-  /*background-image: url(images/background.jpg);*/
+  background-image: url(images/background.jpg);
   font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+}
+
+.container{
+  background-color: white;
+  padding: 0px;
+}
+
+.row{
+  margin: 0px;
 }
 
 .top{
@@ -13,28 +23,35 @@ body{
   position: relative;
 }
 
-.top .cake{
-  background-color : rgba(135, 89, 166, 0.5);
-}
 
 .top .cake{
-  color: white;
+  background-color: rgba(135, 89, 166, 0.5);
+  width: 200px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 3px 2px grey;
   font-size: 15px;
   border: none;
-  padding: 7px 40px;
+  padding: 1px 7px;
   text-decoration: none;
+  display: inline-block;
+  margin-left: -40px;
+  margin-top: 20px;
+}
 
+.top .cake p{
+  margin-left: 70px;
+  margin-top: 7px;
 }
 
 .top .cake img{
   max-width: 20px;
-  margin: 0px 8px -3px 5px;
+  margin: 8px 8px -3px 5px;
 }
 
 .top .download{
   background-color: rgba(61, 193, 209, 0.5);
   border-radius: 33px;
-  padding: 12px 15px;
+  padding: 14px 15px;
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -48,40 +65,67 @@ body{
   max-width: 24px;
 }
 
-.bottom .row .col-sm-3.left{
+.bottom .row .left{
   background-color: #8759A6;
   color: white;
+  min-height: 170px;
 }
 
-.bottom .row .col-sm-3.left img{
-  max-width: 40px;
-}
-
-.bottom .row .col-sm-6{
-  border-right: 1px solid #C8C8C8;
-}
-
-.bottom .row .col-sm-6 p{
-  color: #C8C8C8;
-}
-
-
-.bottom .row .col-sm-6 img{
-  max-width: 45px;
-}
-
-.bottom .row .col-sm-3.right{
+.bottom .row .left .details{
+  padding: 80px 59px;
   text-align: center;
 }
 
-.bottom .row .col-sm-3.right h3{
-  font-size: 25px;
+.bottom .row .left img{
+  max-width: 50px;
+  margin-bottom: 10px;
 }
 
-.bottom .row .col-sm-3.right p{
+.bottom .row .middle{
+  border-right: 1px solid #C8C8C8;
+  margin-top: 47px;
+  padding-left: 45px;
+
+}
+
+.bottom .row .middle .ingred-list{
+  margin-bottom: 30px;
+}
+
+.bottom .row .middle p{
+  color: #C8C8C8;
+  display: inline;
+}
+
+
+.bottom .row .middle img{
+  max-width: 45px;
+}
+
+.bottom .row .right{
+  text-align: center;
+}
+
+.bottom .row .right h3{
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.bottom .row .right p{
   font-size: 15px;
+  margin-top: 5px;
 }
 
-.bottom .row .col-sm-3.right img{
+.bottom .row .right ul{
+  padding: 0px;
+}
+
+.bottom .row .right ul li{
+  text-decoration: none;
+  display: inline;
+}
+
+.bottom .row .right img{
   max-width: 20px;
 }
