@@ -2,6 +2,7 @@ body{
   background-image: url(images/background.jpg);
   font-family: 'Open Sans', sans-serif;
   padding-top: 70px;
+  border-top: 30px sold red;
 }
 
 .container{
@@ -72,7 +73,7 @@ body{
 }
 
 .bottom .row .left .details{
-  padding: 80px 59px;
+  padding: 54px 39px;
   text-align: center;
 }
 
@@ -130,9 +131,11 @@ body{
   max-width: 20px;
 }
 
+@media(min-width : 300px) and (max-width : 767px) {
+  body{
+    padding: 0px;
+  }
 
-
-@media(min-width : 300px){
   .top .cake{
     margin: 0;
   }
@@ -164,17 +167,33 @@ body{
 }
 
 
-@media(min-width: 768px){
+@media(min-width: 768px) and (max-width: 991px){
+  body{
+    padding-top: 70px;
+  }
+
   .bottom .row .left{
-    min-height: 130px;
+    min-height: 60px;
     position: absolute;
-    top: 240px;
+    top: 282px;
+    width: 150px;
 
   }
 
   .bottom .row .left .details{
     padding: 20px 25px;
     display: inline;
+  }
+
+  .bottom .row .left .details span{
+    float: right;
+  }
+
+  .bottom .row .left img{
+    max-width: 46px;
+    margin-bottom: 10px;
+    float: left;
+    padding-top: 10px;
   }
 
   .bottom .row .middle{
