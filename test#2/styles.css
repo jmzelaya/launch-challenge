@@ -40,43 +40,48 @@ body{
   right: 20px;
 }
 
+.top .download:hover{
+  background-color: rgba(61, 193, 209, 0.8);
+}
+
 .top .download img{
   max-width: 24px;
 }
 
-.bottom .row .col-sm-2.left{
+.bottom .row .col-sm-3.left{
   background-color: #8759A6;
   color: white;
 }
 
-.bottom .row .col-sm-2.left img{
+.bottom .row .col-sm-3.left img{
   max-width: 40px;
 }
 
-
-
-
-.bottom .row .col-sm-8{
+.bottom .row .col-sm-6{
   border-right: 1px solid #C8C8C8;
 }
 
-.bottom .row .col-sm-8 p{
+.bottom .row .col-sm-6 p{
   color: #C8C8C8;
 }
 
 
-.bottom .row .col-sm-8 img{
+.bottom .row .col-sm-6 img{
   max-width: 45px;
 }
 
-.bottom .row .col-sm-2.right h3{
+.bottom .row .col-sm-3.right{
+  text-align: center;
+}
+
+.bottom .row .col-sm-3.right h3{
   font-size: 25px;
 }
 
-.bottom .row .col-sm-2.right p{
+.bottom .row .col-sm-3.right p{
   font-size: 15px;
 }
 
-.bottom .row .col-sm-2.right img{
+.bottom .row .col-sm-3.right img{
   max-width: 20px;
 }
