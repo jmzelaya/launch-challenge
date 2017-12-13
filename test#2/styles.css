@@ -57,7 +57,7 @@ body{
 
 
 .bottom .row .col-sm-8{
-
+  border-right: 1px solid #C8C8C8;
 }
 
 .bottom .row .col-sm-8 p{
